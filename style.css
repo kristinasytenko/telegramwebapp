@@ -42,7 +42,7 @@
   .filter {
 	display: flex;
 	justify-content: left;
-	max-width: 1024px;
+	max-width: 512px;
 	margin: 0 auto;
   }
   
@@ -68,9 +68,9 @@
 	background: rgb(43, 43, 43);
 	border-radius: 10px;
 	color: #fff;
-    font-weight: 700;
-	width: 130px;
-	height: 38px;
+    font-weight: 200;
+	width: 70px;
+	height: 30px;
 	transition: background .2s linear;
 	position: center;
 	margin: 7px;
@@ -83,6 +83,10 @@
 	background-color: rgb(7, 182, 185);
 }
 
+.p {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 250%; /* Размер шрифта в процентах */ 
+   } 
 .button {
     display: inline-block;
 	padding: 10px 20px;
@@ -90,9 +94,9 @@
 	background: rgb(43, 43, 43);
 	border-radius: 10px;
 	color: #fff;
-    font-weight: 400;
-	width: 100px;
-	height: 38px;
+    font-weight: 200;
+	width: 70px;
+	height: 30px;
 	transition: background .2s linear;
 	position: left;
 
@@ -132,7 +136,7 @@
 
   
 .img {
-    width: 70px;
+    width: 40px;
 }
 
 .item {
@@ -142,17 +146,19 @@
 .price {
 	color: #00D2D3;
 	text-align: right;
+	font-weight: 80;
+    font-size: 50%;
+    line-height: 8px;
 }
 
 .name {
 	position: left;
     font-family: 'IQOS';
     font-style: normal;
-    font-weight: 100;
-    font-size: 12px;
-    line-height: 15px;
+    font-weight: 80;
+    font-size: 8px;
+    line-height: 8px;
 
 color: #000000;
 }
   
-Footer
